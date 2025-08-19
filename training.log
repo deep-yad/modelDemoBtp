@@ -1,0 +1,27 @@
+nohup: ignoring input
+2025-08-16 01:20:39.334298: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-08-16 01:20:39.482572: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-08-16 01:20:41.895602: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+[ConvNeXtV2] Selected output indexes: [1, 2, 3]
+[ConvNeXtV2] Output feature channels: [256, 512, 1024]
+Not using distributed mode
+git:
+  sha: N/A, status: clean, branch: N/A
+
+Namespace(num_classes=12, grad_accum_steps=2, amp=False, lr=0.0001, lr_encoder=0.00015, batch_size=2, weight_decay=0.0001, epochs=30, lr_drop=11, clip_max_norm=0.1, lr_vit_layer_decay=0.8, lr_component_decay=1.0, do_benchmark=False, dropout=0, drop_path=0, drop_mode='standard', drop_schedule='constant', cutoff_epoch=0, pretrained_encoder=None, pretrain_weights=None, pretrain_exclude_keys=None, pretrain_keys_modify_to_load=None, pretrained_distiller=None, encoder='dinov2_base', vit_encoder_num_layers=12, window_block_indexes=None, position_embedding='sine', out_feature_indexes=[-1], freeze_encoder=False, layer_norm=False, rms_norm=False, backbone_lora=False, force_no_pretrain=False, dec_layers=3, dim_feedforward=2048, hidden_dim=256, sa_nheads=8, ca_nheads=8, num_queries=300, group_detr=13, two_stage=False, projector_scale='P3', lite_refpoint_refine=False, num_select=100, dec_n_points=4, decoder_norm='LN', bbox_reparam=False, freeze_batch_norm=False, set_cost_class=2, set_cost_bbox=5, set_cost_giou=2, cls_loss_coef=2, bbox_loss_coef=5, giou_loss_coef=2, focal_alpha=0.25, aux_loss=False, sum_group_losses=False, use_varifocal_loss=False, use_position_supervised_loss=False, ia_bce_loss=False, dataset_file='coco', coco_path='dataset_detr', dataset_dir=None, square_resize_div_64=False, output_dir='output', dont_save_weights=False, checkpoint_interval=10, seed=42, resume='', start_epoch=0, eval=False, use_ema=False, ema_decay=0.9997, ema_tau=0, num_workers=2, device='cpu', world_size=1, dist_url='env://', sync_bn=True, fp16_eval=False, encoder_only=False, backbone_only=False, resolution=256, use_cls_token=False, multi_scale=False, expanded_scales=False, warmup_epochs=1, lr_scheduler='step', lr_min_factor=0.0, early_stopping=False, early_stopping_patience=10, early_stopping_min_delta=0.001, early_stopping_use_ema=False, gradient_checkpointing=False, distributed=False)
+number of params: 100038370
+loading annotations into memory...
+Done (t=0.01s)
+creating index...
+index created!
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+Start training
+Grad accum steps:  2
+Total batch size:  4
+LENGTH OF DATA LOADER: 225
